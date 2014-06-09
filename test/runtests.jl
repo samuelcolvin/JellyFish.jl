@@ -1,4 +1,4 @@
-using jellyfish
+using JellyFish
 using Base.Test
 
 jw = jaro_winkler("jellyfish", "smellyfish")

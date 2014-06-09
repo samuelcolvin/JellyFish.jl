@@ -1,8 +1,8 @@
-module jellyfish
+module JellyFish
 	export jaro_winkler, jaro_distance, hamming_distance, 
 		levenshtein_distance, damerau_levenshtein_distance, soundex, metaphone, 
 		match_rating_codex, match_rating_comparison, nysiis
-	const _jellyfishlib = find_library(["jellyfish"], [Pkg.dir("jellyfish", "deps")])
+	const _jellyfishlib = find_library(["jellyfish"], [Pkg.dir("JellyFish", "deps")])
 
 	function _calls1s2type(func::Symbol, returntype::DataType, s1::String, s2::String)
 		ccall((func, _jellyfishlib), returntype, (Ptr{Cchar}, Ptr{Cchar}), s1, s2)
