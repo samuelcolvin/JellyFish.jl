@@ -1,8 +1,6 @@
 using jellyfish
 using Base.Test
 
-# write your own tests here
-@test 1 == 1
 @show jw = jaro_winkler("jellyfish", "smellyfish")
 jw_correct = 0.8962962962962964
 @test abs(jw_correct - jw) < 0.0001
