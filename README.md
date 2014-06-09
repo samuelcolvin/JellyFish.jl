@@ -41,11 +41,11 @@ String comparison:
 	@show match_rating_comparison("jellyfish", "jellyfihs")
 	@show nysiis("jellyfish")
 
-outputs:
+gives:
 
 	jaro_winkler("jellyfish","smellyfish") => 0.8962962962962964
 	jaro_distance("jellyfish","smellyfish") => 0.8962962962962964
-	hamming_distance("apple","pear") => 0x0000000000000005
+	hamming_distance("apple","pear") => 5
 	levenshtein_distance("jellyfish","smellyfish") => 2
 	damerau_levenshtein_distance("jellyfish","jellyfihs") => 1
 	soundex("jellyfish") => "J412"

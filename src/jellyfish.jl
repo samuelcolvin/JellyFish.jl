@@ -17,7 +17,7 @@ module jellyfish
 	end
 
 	function hamming_distance(s1::String, s2::String)
-		_calls1s2type(:hamming_distance, Csize_t, s1, s2)
+		int(_calls1s2type(:hamming_distance, Csize_t, s1, s2))
 	end
 
 	function levenshtein_distance(s1::String, s2::String)
