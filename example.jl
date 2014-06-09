@@ -1,5 +1,5 @@
 
-	using jellyfish
+	using JellyFish
 
 	@show jaro_winkler("jellyfish", "smellyfish")
 	@show jaro_distance("jellyfish", "smellyfish")

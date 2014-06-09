@@ -1,6 +1,6 @@
-# jellyfish
+# JellyFish
 
-[![Build Status](https://travis-ci.org/samuelcolvin/jellyfish.jl.svg?branch=master)](https://travis-ci.org/samuelcolvin/jellyfish.jl)
+[![Build Status](https://travis-ci.org/samuelcolvin/JellyFish.jl.svg?branch=master)](https://travis-ci.org/samuelcolvin/JellyFish.jl)
 
 Port of the [jellyfish string comparison library](https://github.com/sunlightlabs/jellyfish).
 
@@ -28,7 +28,7 @@ String comparison:
 
 ## Basic usage:
 
-	using jellyfish
+	using JellyFish
 
 	@show jaro_winkler("jellyfish", "smellyfish")
 	@show jaro_distance("jellyfish", "smellyfish")
