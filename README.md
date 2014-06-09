@@ -6,7 +6,7 @@ Port of the [jellyfish string comparison library](https://github.com/sunlightlab
 
 All underlying functions in jellyfish are written in c, this packages just calls those functions directly.
 
-jellyfish.jl is subject to the BSD-3 license as per the original jellyfish module.
+JellyFish.jl is subject to the BSD-3 license as per the original jellyfish module.
 
 ### Included Algorithms
 

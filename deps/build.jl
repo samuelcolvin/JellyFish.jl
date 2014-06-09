@@ -1,2 +1,2 @@
-cd(Pkg.dir("jellyfish", "deps"))
+cd(Pkg.dir("JellyFish", "deps"))
 run(`make`)
