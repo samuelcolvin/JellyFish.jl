@@ -13,4 +13,4 @@ before_install:
   - sudo apt-get install libpcre3-dev julia -y
   - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
 script:
-  - julia -e 'Pkg.init(); Pkg.clone(pwd()); Pkg.test("jellyfish")'
+  - julia -e 'Pkg.init(); Pkg.clone(pwd());Pkg.resolve(); pkg.add("BinDeps"); Pkg.build("jellyfish"); Pkg.test("jellyfish")'
