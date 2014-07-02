@@ -1,6 +1,7 @@
 # JellyFish
 
 [![Build Status](https://travis-ci.org/samuelcolvin/JellyFish.jl.svg?branch=master)](https://travis-ci.org/samuelcolvin/JellyFish.jl)
+[![JellyFish](http://pkg.julialang.org/badges/JellyFish_0.2.svg)](http://pkg.julialang.org/?pkg=JellyFish&ver=0.2)
 
 Port of the [jellyfish string comparison library](https://github.com/sunlightlabs/jellyfish).
 
