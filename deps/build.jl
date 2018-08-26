@@ -1,2 +1,3 @@
-cd(Pkg.dir("JellyFish", "deps"))
-run(`make`)
+cd(@__DIR__) do
+    run(`make`)
+end

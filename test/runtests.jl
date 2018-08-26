@@ -1,5 +1,5 @@
 using JellyFish
-using Base.Test
+using Test
 
 jw = jaro_winkler("jellyfish", "smellyfish")
 jw_correct = 0.8962962962962964
